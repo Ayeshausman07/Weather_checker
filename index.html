@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQcWnN7yyc20XCi2bVOTGNvc9j3UtWLQpcWQ&s" type="image/x-icon">
+    <title>Weather Card</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .cloudy{
+            background-image: url("https://i.pinimg.com/originals/27/1a/b5/271ab54046bf5fa89e2f8516cd3d9ec6.gif");
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-size: 100vw 100vh; 
+            height: 100vh;
+        }
+        .rainy{
+            background-image: url("https://www.icegif.com/wp-content/uploads/2023/03/icegif-1578.gif");
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-size: 100vw 100vh; 
+            height: 100vh;
+
+        }
+        .sunny{
+            background-image: url("https://i.pinimg.com/originals/7f/49/40/7f49405248d3563db5a015b18d8cfb98.gif");
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-size: 100vw 100vh;
+            height: 100vh;
+        }
+        .snowy{
+            background-image: url("https://www.myincrediblewebsite.com/wp-content/uploads/2017/01/winter-snowfall.gif");
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-size: 100vw 100vh; 
+            height: 100vh;
+        }
+        .windy{
+            background-image: url("https://i.pinimg.com/originals/56/a7/38/56a738fb229c5c3d42d99254f35d4425.gif");
+            background-repeat: no-repeat;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-size: 100vw 100vh; 
+            height: 100vh;
+        }
+        .weather-card {
+            width: 18rem;
+            border: 1px solid #d3d3d3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            transition: transform 0.3s ease;
+            
+        }
+        .weather-card:hover {
+            transform: scale(1.05);
+        }
+        .card-title {
+            font-weight: bold;
+            color: #5a5a5a;
+        }
+        .card-img-top {
+            height: 150px;
+            object-fit: cover;
+        }
+        .error-container {
+            background: rgba(0, 0, 0, 0.6); 
+            text-align: center;
+            padding: 40px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+        .error-container img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .error-container h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .error-container p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .btn-custom {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #ff5252;
+            color: #fff;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
